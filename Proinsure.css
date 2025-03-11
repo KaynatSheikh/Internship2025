@@ -1,0 +1,252 @@
+*{ 
+    box-sizing: border-box;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif
+
+}
+body { 
+    line-height: 1.5;
+    font-family: "Karla", sans-serif;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1,h2,h3{
+    font-family:  "DM Serif Display", serif;
+}
+section,div{
+    display: block;
+}
+.header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    display: block;
+    padding:16px 0;
+    top:0;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+.container{
+    max-width: 1200px;
+    padding: 0px 32px;
+    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font:inherit;
+}
+.title{
+    color: #2d2640;
+    font-size: 36px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 700;
+}
+.menu{
+    display: flex;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font:inherit;
+    align-items: center;
+}
+.menu div{
+    text-align: center;
+    font-size:20px;
+    color:#6e6b74;
+    margin-left: 32px;
+    font:inherit;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.menu > div:hover{
+    color:#2d2640;
+}
+.plans-btn{
+    border: 1px solid #6e6b74;
+    padding: 12px 18px;
+    border-radius: 3px;
+    display: inline-block;
+    color:#6e6b74;
+    font-size:20px;
+    font-weight: 700;
+}
+.plans-btn:hover{
+    color:white !important;
+    background-color: #2d2640;
+    cursor: pointer;
+}
+.plans-btn2:hover{
+    color:#2d2640 !important;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.first{
+    background-color: #2d2640;
+    padding: 60px 0;
+    color: #ffffff;
+    margin-top: 88px;
+    font-family:"DM Serif Display", serif;
+}
+.align-start{
+    align-items: flex-start;
+}
+.first-col1-2{
+    flex:0 1 45%;
+    vertical-align: baseline;
+    
+}
+.line{
+    height:2px;
+    width:200px;
+    background-color:#bcb8c4; ;
+}
+.first-heading{
+    font-size: 56px;
+    margin-top: 16px;
+    line-height: 1.1;
+}
+
+.first-text{
+    color: #bcb8c4;
+    margin: 32px 0;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    font:inherit;
+    box-sizing: border-box;
+    display: block;
+    
+}
+.plans-btn2{
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 12px 18px;
+    border-radius: 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    font:inherit;
+    font-weight: 700;
+}
+
+.first-image{
+    width: 100%;
+    margin-bottom: -160px;
+}
+.second{
+    margin-top: 80px;
+    padding: 80px 0;
+    display: block;
+    color:#2d2640;
+    box-sizing: border-box;
+    
+}
+.second-image{
+    width:100%;
+}
+.second-heading{
+    font-size: 48px;
+}
+.second-text{
+    font-size: 20px;
+    color: #6e6b74;
+    line-height: 1.6;
+    margin: 24px 0;
+}
+.third{
+    margin-top: 80px;
+    padding: 80px 0;
+    display: block;
+    box-sizing: border-box;
+    color:#2d2640;
+    
+}
+.third-heading{
+    font-size: 48px;
+}
+.col3{
+    flex: 0 1 30%;
+
+}
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #8ab4f0;;
+   
+  }
+  .col3 h3{
+    color: #2d2640;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin:24px 0px 8px 0px;
+    font-family: "DM Serif Display", serif; 
+  }
+  .third header{
+    margin-bottom: 40px;
+  }
+  .col3 p{
+    color: #6e6b74;
+  }
+  .fourth .container{
+    padding: 80px 60px;
+    color: #ffffff;
+    background-color: #2d2640;
+    
+  }
+  .fourth h3{
+    font-size: 44px;
+    font-family: "DM Serif Display", serif; 
+  }
+  .footer{
+    margin-top: 60px;
+    display: block;
+  }
+  .bottom-border{
+    border-bottom: 1px solid #6e6b74;
+  }
+  .footer a{
+  color: #6e6b74;
+  margin-left: 32px;
+  font-size: 24px;
+  text-decoration: none;
+  }
+  .footer h2{
+    font-size: 36px;
+  }
+  .footer .container{
+    padding: 0;
+  }
+
+  .footernav{
+    text-align: center;
+    padding: 24px 0;
+  }
+  .footer a:hover{
+    color:#2d2640;
+  }
+  .copyright{
+    background-color: #2d2640;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 32px 0;
+  }
+
+
+  
+  
+
+  
